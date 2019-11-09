@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ch_2_example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Elderflower</h1>
+  <div id="content">
+    <div id="greeting" class="message">Elderflower Checkout</div>
+    <table>
+      <tr>
+        <td>Custom sign: </td>
+        <td id="userSign">
+          <input id="userSignInput"type="text"></input>
+        </td>
+      </tr>
+      <tr>
+        <td> Upgrade font: </td>
+        <td> <input id="userFontInput" type ="checkbox">
+        (+$1 per tile)
+        </input></td>
+      </tr>
+      <tr>
+        <td> Upgrade color: </td>
+        <td> <input id="userColorInput" type ="checkbox">
+        (+$1 per tile)
+        </input></td>
+      </tr>
+      <tr>
+        <td>Total tiles: </td>
+        <td id="tiles">0</td>
+      </tr>
+      <tr>
+        <td>Subtotal: </td>
+        <td id="subTotal">$0</td>
+      </tr>
+      <tr>
+        <td>Shipping: </td>
+        <td id="shipping">$0</td>
+      </tr>
+      <tr>
+        <td>Grand total: </td>
+        <td id="grandTotal">$0</td></tr>
+    </table>
+    <a href="#" id='payButton' class="action">Pay Now</a>
+    <button id="reset" class="action2" value="Reset">Reset</button>
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./js/script.js"></script>
+
+</body>
+</html>

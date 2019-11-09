@@ -85,6 +85,10 @@ a {
     color: #e3bb5a;
     text-decoration:none;}
 
+#gitLink{
+   color: black;
+}
+
 .true, .false {
     background: url("../images/tick-cross.png");
     display: inline-block;

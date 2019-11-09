@@ -86,7 +86,8 @@ a {
     text-decoration:none;}
 
 #gitLink{
-   color: black;
+   color: blue;
+   text-decoration: underline; 
 }
 
 .true, .false {
